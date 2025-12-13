@@ -2,21 +2,19 @@
 
 # Ramesh Shrestha  
 **Data Science • Machine Learning • Software Engineering | Sydney, Australia**  
-
-<a href="https://linkedin.com/in/rameshsta" style="text-decoration:none;">LinkedIn</a> • 
-<a href="https://github.com/RameshSTA" style="text-decoration:none;">GitHub</a> • 
-<a href="mailto:shrestha.ramesh000@gmail.com" style="text-decoration:none;">Email</a>  
-
-0452 083 046  
+[Email](mailto:shrestha.ramesh000@gmail.com)  
+[LinkedIn](https://linkedin.com/in/rameshsta) | [GitHub](https://github.com/RameshSTA)
 
 ---
 
 ### 🔗 Featured Projects
-<a href="https://github.com/RameshSTA/FinGraph-ASX-GraphRAG-Engine" style="text-decoration:none;">FinGraph-ASX GraphRAG Engine</a> • 
-<a href="https://github.com/RameshSTA/Hybrid-XGBoostPyTorch-System" style="text-decoration:none;">Hybrid XGBoost/PyTorch Risk Engine</a> • 
-<a href="https://github.com/RameshSTA/Hybrid-LSTM-XGBoost-Supply-Chain-Optimizer" style="text-decoration:none;">TensorTwin Supply Chain Optimizer</a> • 
-<a href="https://github.com/RameshSTA/Product-Recommendation-System" style="text-decoration:none;">Product Recommendation System</a> • 
-<a href="https://github.com/RameshSTA/TicTacToe-AI" style="text-decoration:none;">Tic-Tac-Toe AI</a>
+[FinGraph-ASX GraphRAG Engine](https://github.com/RameshSTA/FinGraph-ASX-GraphRAG-Engine) 
+[AuraFin Risk Engine](https://github.com/RameshSTA/Hybrid-XGBoostPyTorch-System) • 
+[TensorTwin Supply Chain Optimizer](https://github.com/RameshSTA/Hybrid-LSTM-XGBoost-Supply-Chain-Optimizer) • 
+[Product Recommendation System](https://github.com/RameshSTA/Product-Recommendation-System) • 
+[Tic-Tac-Toe AI](https://github.com/RameshSTA/TicTacToe-AI)
+
+</div>
 
 </div>
 
