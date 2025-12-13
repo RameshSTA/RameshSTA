@@ -1,56 +1,62 @@
-# Ramesh Shrestha
+# Ramesh S T A
+Junior Data Scientist & Machine Learning Engineer | Sydney, Australia
 
-### Software Engineer (AI Stream) | Data Scientist | Machine Learning Engineer
-
-Based in **Sydney, Australia**, I bridge the gap between software engineering and data science. While many professionals focus solely on model training, I possess the engineering rigour to build **scalable, production-ready AI systems**.
-
-My work focuses on **Hybrid Neural Architectures**, **Retrieval-Augmented Generation (RAG)**, and **Supply Chain Optimization**. I hold a Bachelor of Software Engineering (AI) and full working rights in Australia (Visa until March 2028).
+I am a Data Scientist and Machine Learning Engineer with a strong foundation in software engineering and artificial intelligence. My focus is on building production‑grade AI solutions that deliver measurable business outcomes. I specialise in predictive modelling, natural language processing, computer vision, and data engineering, with hands‑on experience deploying solutions on cloud platforms and integrating them into business workflows.
 
 ---
 
-## Featured Engineering Projects
-
-### 1. FinGraph-ASX-GraphRAG-Engine
-**Domain:** Generative AI & Financial Engineering  
-A specialized **Graph Retrieval-Augmented Generation (GraphRAG)** engine designed for the Australian Securities Exchange (ASX).
-* **The Impact:** Solved the limitation of standard LLMs in understanding complex financial dependencies by integrating Knowledge Graphs with Generative AI.
-* **The Tech:** Graph Neural Networks (GNN), LangChain, Python, Vector Databases.
-* **[View Repository](https://github.com/RameshSTA/FinGraph-ASX-GraphRAG-Engine)**
-
-### 2. Hybrid-LSTM-XGBoost-Supply-Chain-Optimizer
-**Domain:** Supply Chain Analytics & Forecasting  
-An end-to-end forecasting engine engineered to optimize inventory management and reduce logistics volatility.
-* **The Impact:** Enhanced time-series forecasting accuracy on high-variance data by combining the long-term memory of LSTMs with the gradient boosting power of XGBoost.
-* **The Tech:** Python, PyTorch, XGBoost, Time-Series Analysis (ARIMA/Prophet).
-* **[View Repository](https://github.com/RameshSTA/Hybrid-LSTM-XGBoost-Supply-Chain-Optimizer)**
-
-### 3. Hybrid-XGBoostPyTorch-System
-**Domain:** Deep Learning Architecture  
-A custom integration framework that fuses PyTorch Deep Learning models with Gradient Boosting decision trees for tabular data.
-* **The Tech:** Custom Neural Network Architecture, Ensemble Learning, Model Stacking.
-* **[View Repository](https://github.com/RameshSTA/Hybrid-XGBoostPyTorch-System)**
+## Professional Summary
+- **Academic Background:** Bachelor of Software Engineering (Artificial Intelligence), Torrens University Australia (2021–2024).  
+- **Professional Development:** ACS‑accredited Professional Year Program in Information Technology (QIBA, 2024–2025).  
+- **Technical Skills:** Python, PyTorch, TensorFlow, SQL, Databricks, AWS, Tableau, Power BI, Neo4j, LangChain, LlamaIndex.  
+- **Core Strengths:** Designing scalable ML pipelines, optimising algorithms, building dashboards, and translating complex data into actionable insights.  
 
 ---
 
-## Technical Competencies
+## Featured Projects
 
-| Domain | Stack |
-| :--- | :--- |
-| **Languages** | Python (Advanced), SQL, R, C++ |
-| **Machine Learning** | PyTorch, TensorFlow, Scikit-Learn, XGBoost, Hugging Face (Transformers) |
-| **Data Engineering** | Pandas, NumPy, Airflow, Data Pipelines, Feature Engineering |
-| **Deployment & Tools** | Docker, Git, CI/CD, Linux, Google Cloud Platform (GCP) |
-| **Visualization** | PowerBI, Matplotlib, Seaborn, Tableau |
+### Hybrid XGBoost/PyTorch System with Financial Threshold Optimization
+Hybrid PyTorch/XGBoost model designed to improve financial resilience.  
+- Reduced capital risk by **$21.8M per batch** through predictive modelling and scenario simulation.  
+- Built scalable pipelines in **SQL/Databricks** for enterprise‑level risk analysis.  
+- Delivered Tableau dashboards for real‑time monitoring and decision support.  
+
+### TensorTwin Supply Chain Optimizer
+LSTM + XGBoost ensemble for supply chain forecasting and optimisation.  
+- Maintained **98% SLA compliance** while releasing **$680k capital per distribution center**.  
+- Integrated Tableau dashboards for end‑to‑end supply chain visibility.  
+- Applied scenario testing to ensure resilience under fluctuating demand conditions.  
+
+### FinGraph‑ASX GraphRAG Engine
+Agentic RAG system automating financial due diligence on ASX annual reports.  
+- Combined vector search with **Neo4j graph traversal** for multi‑hop reasoning, improving retrieval accuracy by **40%**.  
+- Achieved **<10ms latency** using Groq LPU for real‑time inference on Llama‑3‑70B.  
+- Built agentic ingestion with LlamaParse + Pydantic validators to ensure clean structured data.  
+
+### Product Recommendation System
+BERT‑based recommender deployed on Google Cloud.  
+- Improved user engagement by **15%** and recommendation accuracy by **25%**.  
+- Deployed with BigQuery and Vertex AI for scalable, real‑time recommendation delivery.  
+
+### Tic‑Tac‑Toe AI
+C++ application implementing the minimax algorithm for AI opponent decision‑making.  
+- Designed multiple game modes (PvP, PvC) with robust game logic.  
+- Delivered a bug‑free, user‑friendly application through rigorous testing and debugging.  
 
 ---
 
-## Professional Status
+## Technical Skills
 
-* **Location:** Sydney, NSW 🇦🇺
-* **Visa:** Temporary Graduate Visa (Valid until March 2028)
-* **Availability:** Immediate start for Data Scientist, ML Engineer, or Data Analyst roles.
+- **Languages:** Python, C++, SQL  
+- **Machine Learning & AI:** PyTorch, TensorFlow, Scikit‑learn, LangChain, LlamaIndex, NLP, Computer Vision  
+- **Data & Cloud Platforms:** Databricks, AWS, Google Cloud, Neo4j AuraDB  
+- **Visualization & BI:** Tableau, Power BI, Streamlit  
+- **Tools & DevOps:** Git, Docker, GitHub Actions, CI/CD  
 
-## Contact
+---
 
-* **Email:** shrestha.ramesh000@gmail.com
-* **LinkedIn:** [linkedin.com/in/rameshsta](https://www.linkedin.com/in/rameshsta/)
+## Connect
+
+- LinkedIn: [linkedin.com/in/rameshsta](https://www.linkedin.com/in/rameshsta/)  
+- GitHub: [github.com/RameshSTA](https://github.com/RameshSTA)  
+
