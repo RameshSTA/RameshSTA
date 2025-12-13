@@ -1,49 +1,56 @@
-# Ramesh S T A
-Junior Data Scientist & Machine Learning Engineer | Sydney, Australia
+# Ramesh Shrestha
 
-I specialise in building and deploying machine learning solutions that deliver measurable business impact. My work spans predictive modelling, natural language processing, computer vision, and data engineering. I am passionate about translating complex data into actionable insights and developing production‑grade AI systems.
+### Software Engineer (AI Stream) | Data Scientist | Machine Learning Engineer
 
----
+Based in **Sydney, Australia**, I bridge the gap between software engineering and data science. While many professionals focus solely on model training, I possess the engineering rigour to build **scalable, production-ready AI systems**.
 
-## Featured Projects
-
-**AuraFin Risk Engine**  
-Hybrid PyTorch/XGBoost model reducing capital risk by $21.8M per batch.  
-- Built scalable pipelines in SQL/Databricks for enterprise‑level risk analysis.  
-- Delivered Tableau dashboards for real‑time monitoring and decision support.  
-
-**TensorTwin Supply Chain Optimizer**  
-LSTM + XGBoost ensemble maintaining 98% SLA compliance while releasing $680k capital per distribution center.  
-- Integrated Tableau dashboards for end‑to‑end supply chain visibility.  
-- Applied scenario testing to ensure resilience under fluctuating demand conditions.  
-
-**FinGraph‑ASX GraphRAG Engine**  
-Neuro‑symbolic pipeline enabling 10x faster analysis of ASX annual reports.  
-- Combined vector search with Neo4j graph traversal for multi‑hop reasoning.  
-- Achieved <10ms latency using Groq LPU for real‑time inference.  
-
-**Product Recommendation System**  
-BERT‑based recommender deployed on Google Cloud.  
-- Improved engagement by 15% and accuracy by 25%.  
-- Deployed with BigQuery and Vertex AI for scalable recommendation delivery.  
-
-**Tic‑Tac‑Toe AI**  
-C++ application implementing minimax algorithm for AI opponent decision‑making.  
-- Designed multiple game modes and delivered a bug‑free, user‑friendly experience.  
+My work focuses on **Hybrid Neural Architectures**, **Retrieval-Augmented Generation (RAG)**, and **Supply Chain Optimization**. I hold a Bachelor of Software Engineering (AI) and full working rights in Australia (Visa until March 2028).
 
 ---
 
-## Technical Skills
+## Featured Engineering Projects
 
-- **Languages:** Python, C++, SQL  
-- **Machine Learning & AI:** PyTorch, TensorFlow, Scikit‑learn, LangChain, LlamaIndex  
-- **Data & Cloud Platforms:** Databricks, AWS, Google Cloud, Neo4j  
-- **Visualization & BI:** Tableau, Power BI, Streamlit  
-- **Tools & DevOps:** Git, Docker, GitHub Actions, CI/CD  
+### 1. FinGraph-ASX-GraphRAG-Engine
+**Domain:** Generative AI & Financial Engineering  
+A specialized **Graph Retrieval-Augmented Generation (GraphRAG)** engine designed for the Australian Securities Exchange (ASX).
+* **The Impact:** Solved the limitation of standard LLMs in understanding complex financial dependencies by integrating Knowledge Graphs with Generative AI.
+* **The Tech:** Graph Neural Networks (GNN), LangChain, Python, Vector Databases.
+* **[View Repository](https://github.com/RameshSTA/FinGraph-ASX-GraphRAG-Engine)**
+
+### 2. Hybrid-LSTM-XGBoost-Supply-Chain-Optimizer
+**Domain:** Supply Chain Analytics & Forecasting  
+An end-to-end forecasting engine engineered to optimize inventory management and reduce logistics volatility.
+* **The Impact:** Enhanced time-series forecasting accuracy on high-variance data by combining the long-term memory of LSTMs with the gradient boosting power of XGBoost.
+* **The Tech:** Python, PyTorch, XGBoost, Time-Series Analysis (ARIMA/Prophet).
+* **[View Repository](https://github.com/RameshSTA/Hybrid-LSTM-XGBoost-Supply-Chain-Optimizer)**
+
+### 3. Hybrid-XGBoostPyTorch-System
+**Domain:** Deep Learning Architecture  
+A custom integration framework that fuses PyTorch Deep Learning models with Gradient Boosting decision trees for tabular data.
+* **The Tech:** Custom Neural Network Architecture, Ensemble Learning, Model Stacking.
+* **[View Repository](https://github.com/RameshSTA/Hybrid-XGBoostPyTorch-System)**
 
 ---
 
-## Connect
+## Technical Competencies
 
-- LinkedIn: [linkedin.com/in/rameshsta](https://www.linkedin.com/in/rameshsta/)  
-- GitHub: [github.com/RameshSTA](https://github.com/RameshSTA)  
+| Domain | Stack |
+| :--- | :--- |
+| **Languages** | Python (Advanced), SQL, R, C++ |
+| **Machine Learning** | PyTorch, TensorFlow, Scikit-Learn, XGBoost, Hugging Face (Transformers) |
+| **Data Engineering** | Pandas, NumPy, Airflow, Data Pipelines, Feature Engineering |
+| **Deployment & Tools** | Docker, Git, CI/CD, Linux, Google Cloud Platform (GCP) |
+| **Visualization** | PowerBI, Matplotlib, Seaborn, Tableau |
+
+---
+
+## Professional Status
+
+* **Location:** Sydney, NSW 🇦🇺
+* **Visa:** Temporary Graduate Visa (Valid until March 2028)
+* **Availability:** Immediate start for Data Scientist, ML Engineer, or Data Analyst roles.
+
+## Contact
+
+* **Email:** shrestha.ramesh000@gmail.com
+* **LinkedIn:** [linkedin.com/in/rameshsta](https://www.linkedin.com/in/rameshsta/)
