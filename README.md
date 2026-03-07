@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0F2B5B&height=180&section=header&text=Ramesh%20Shrestha&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Applied%20Data%20Scientist%20%C2%B7%20ML%20Engineer%20%C2%B7%20Sydney%2C%20Australia&descAlignY=62&descSize=18" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0F2B5B&height=180&section=header&text=Ramesh%20Shrestha&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Scientist%20%C2%B7%20ML%20Engineer%20%C2%B7%20Sydney%2C%20Australia&descAlignY=62&descSize=18" width="100%"/>
 </div>
 
 <div align="center">
@@ -17,7 +17,7 @@
 
 ## About Me
 
-I am an Applied Data Scientist based in Sydney, Australia, with professional experience building and deploying **production-grade ML systems** across fraud intelligence, healthcare AI, customer lifecycle analytics, and financial reasoning. I currently work as an **Associate Consultant — ERP Data Developer at PM-Partners**, where I design and maintain automated Azure Data Factory ingestion pipelines and SQL/PL-SQL validation workflows that directly power executive reporting for HR and Payroll units.
+I am a **Data Scientist** based in Sydney, Australia, with professional experience building and deploying **production-grade ML systems** across fraud intelligence, customer lifecycle analytics, financial AI, and healthcare. I currently work as an **Associate Consultant — ERP Data Developer at PM-Partners**, where I design and maintain automated Azure Data Factory ingestion pipelines and SQL/PL-SQL validation workflows that directly power executive reporting for HR and Payroll units.
 
 My approach to ML is end-to-end — I own the full lifecycle from raw data ingestion, feature engineering, and model training through to real-time API deployment with FastAPI and Docker, and long-term drift monitoring in production. Every system I ship includes SHAP explainability for stakeholder trust, Evidently AI monitoring for reliability, and reproducible DVC pipelines for engineering rigour. I am fluent with **PyTorch, XGBoost, scikit-learn, MLflow, and Azure**, and comfortable working across both research-oriented and production-focused environments.
 
