@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=1A7A8C&center=true&vCenter=true&width=720&lines=Building+production+AI+systems+from+data+to+deployed+API;LLM+%7C+RAG+%7C+Agentic+AI+%7C+MLOps+%7C+Causal+Inference;Open+to+AI+Engineer+%26+Data+Scientist+roles+in+Australia" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=1A7A8C&center=true&vCenter=true&width=720&lines=Building+production+AI+systems+from+data+to+deployed+API;LLM+%7C+RAG+%7C+Agentic+AI+%7C+MLOps+%7C+Causal+Inference;Sydney%2C+Australia+%C2%B7+Full+Working+Rights" alt="Typing SVG" />
 </div>
 
 <br/>
@@ -13,7 +13,8 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge)](https://linkedin.com/in/rameshsta)&nbsp;
 [![Email](https://img.shields.io/badge/Email-shrestha.ramesh000%40gmail.com-EA4335?style=for-the-badge)](mailto:shrestha.ramesh000@gmail.com)&nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-RameshSTA-181717?style=for-the-badge)](https://github.com/RameshSTA)&nbsp;
-[![Location](https://img.shields.io/badge/Sydney%2C%20NSW-Full%20Working%20Rights-1A7A8C?style=for-the-badge)](https://github.com/RameshSTA)
+[![Location](https://img.shields.io/badge/Sydney%2C%20NSW-Australia-1A7A8C?style=for-the-badge)](https://github.com/RameshSTA)&nbsp;
+[![Rights](https://img.shields.io/badge/Full%20Working%20Rights-Australia-1A7A8C?style=for-the-badge)](https://github.com/RameshSTA)
 
 </div>
 
@@ -29,7 +30,7 @@ My work sits at the intersection of **machine learning engineering, LLM/RAG syst
 
 Currently working as an **Associate Consultant: AI and Data Developer at PM-Partners** in Sydney, designing automated Azure Data Factory pipelines that power executive reporting at scale. My independent projects span a production-deployed insurance AI platform (fraud detection, RAG, agentic triage) live on Hugging Face Spaces, and an airline revenue-management engine combining hybrid forecasting, linear-programme optimisation, causal inference, and tool-calling agents.
 
-> Actively targeting **AI Engineer · Data Scientist · ML Engineer** roles where models ship to production and decisions are grounded in evidence.
+
 
 <br/>
 
