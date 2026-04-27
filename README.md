@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0F2B5B&height=180&section=header&text=Ramesh%20Shrestha&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Scientist%20%C2%B7%20ML%20Engineer%20%C2%B7%20Sydney%2C%20Australia&descAlignY=62&descSize=18" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0F2B5B&height=180&section=header&text=Ramesh%20Shrestha&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%C2%B7%20Data%20Scientist%20%C2%B7%20Sydney%2C%20Australia&descAlignY=62&descSize=18" width="100%"/>
 </div>
 
 <div align="center">
@@ -17,17 +17,157 @@
 
 ## About Me
 
-I am a **Data Scientist** based in Sydney, Australia, with professional experience building and deploying **production-grade ML systems** across fraud intelligence, customer lifecycle analytics, financial AI, and healthcare. I currently work as an **Associate Consultant — ERP Data Developer at PM-Partners**, where I design and maintain automated Azure Data Factory ingestion pipelines and SQL/PL-SQL validation workflows that directly power executive reporting for HR and Payroll units.
+I am an **AI Engineer and Data Scientist** based in Sydney, Australia, who builds production-grade intelligence systems from raw data to deployed API — not just notebooks. My work sits at the intersection of **machine learning engineering, LLM/RAG systems, and agentic AI**: I ship models that run in production, explain their decisions, and integrate into real operational workflows.
 
-My approach to ML is end-to-end — I own the full lifecycle from raw data ingestion, feature engineering, and model training through to real-time API deployment with FastAPI and Docker, and long-term drift monitoring in production. Every system I ship includes SHAP explainability for stakeholder trust, Evidently AI monitoring for reliability, and reproducible DVC pipelines for engineering rigour. I am fluent with **PyTorch, XGBoost, scikit-learn, MLflow, and Azure**, and comfortable working across both research-oriented and production-focused environments.
+Currently working as an **Associate Consultant: AI and Data Developer at PM-Partners**, I design automated Azure Data Factory ingestion pipelines and SQL validation workflows that power executive reporting at scale. Across independent projects, I have built a full-stack insurance AI platform (fraud detection, RAG policy assistant, agentic claims triage) deployed live on Hugging Face Spaces and GitHub Pages, and an airline revenue-management engine combining hybrid forecasting, linear-programme optimisation, causal inference, and tool-calling agents.
 
-I hold a **Bachelor of Software Engineering (Data Science & Artificial Intelligence)** from Torrens University Australia, complemented by the Deep Learning Specialisation (DeepLearning.AI) and Machine Learning Specialisation (Stanford University / DeepLearning.AI). I have full working rights in Australia and am actively open to **Data Scientist and ML Engineer** opportunities where models ship to production and decisions are data-driven.
+My technical depth spans **XGBoost, PyTorch, LangChain, FAISS, FastAPI, Docker, and GitHub Actions CI/CD**. I am fluent across the full ML lifecycle: feature engineering, model training, SHAP explainability, containerised deployment, and production drift monitoring. I hold a Bachelor of Software Engineering in Data Science & AI (Torrens University Australia), the Deep Learning Specialisation (DeepLearning.AI), and the Machine Learning Specialisation (Stanford / DeepLearning.AI).
+
+Full working rights in Australia — actively targeting **AI Engineer, Data Scientist, and ML Engineer** roles where models ship to production and decisions are grounded in data.
 
 ---
 
 ## Featured Projects
 
 <br/>
+
+### Argus — Insurance Intelligence Platform
+
+<div>
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-009688?style=for-the-badge&logo=vercel&logoColor=white)](https://RameshSTA.github.io/argus)
+[![API Docs](https://img.shields.io/badge/API_Docs-FF6B35?style=for-the-badge&logo=fastapi&logoColor=white)](https://Ramesh79-argus.hf.space/api/docs)
+[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-0F2B5B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RameshSTA/argus)
+
+</div>
+
+A production-deployed, three-layer AI platform for insurance intelligence — combining **XGBoost fraud detection with SHAP explainability**, a **FAISS retrieval-augmented generation (RAG) policy assistant**, and a **multi-agent claims triage system** powered by Anthropic Claude. The full stack — FastAPI backend, vector store, and agentic orchestration — is live on Hugging Face Spaces with an OpenAPI documentation endpoint, and the frontend is continuously deployed to GitHub Pages via GitHub Actions.
+
+Grounded in primary-source research into **Suncorp Group's FY2024–FY2025 AI transformation**: SunGPT on Databricks Mosaic AI, 14,350+ staff hours saved, 2M+ AI-generated claims summaries, and a 5-year Microsoft Azure strategic partnership — each of Argus's three capability layers maps directly to a deployed Suncorp system.
+
+<br/>
+
+<table align="center">
+  <tr>
+    <td align="center" width="160"><h3>99.8%</h3>Fraud Detection<br/>AUC-ROC</td>
+    <td align="center" width="160"><h3>847</h3>Policy Documents<br/>in RAG Index</td>
+    <td align="center" width="160"><h3>3</h3>AI Capability<br/>Layers</td>
+    <td align="center" width="160"><h3>&lt;200 ms</h3>API Response<br/>Latency</td>
+    <td align="center" width="160"><h3>Live</h3>Production<br/>Deployed</td>
+  </tr>
+</table>
+
+<br/>
+
+**Fraud Detection Engine** — XGBoost classifier trained on 555K synthetic insurance claims with SMOTE resampling and 47 domain-specific engineered features. SHAP waterfall plots surface per-claim risk drivers for every prediction, enabling fully auditable decisions aligned with APRA CPS 234 risk governance standards.
+
+**RAG Policy Assistant** — FAISS vector store with Sentence-Transformers embeddings indexes 847 insurance policy documents. LangChain orchestrates multi-turn queries through Anthropic Claude, returning clause-level cited answers with source attribution — reducing policy lookup time by an estimated 70%.
+
+**Agentic Claims Triage** — Multi-agent system using LangChain Agents and tool-calling to autonomously classify claim severity, extract structured data, flag anomalies, and generate natural-language adjuster summaries — mirroring enterprise-grade agentic workflows in production insurance operations.
+
+<br/>
+
+<table>
+  <tr>
+    <td><strong>ML&nbsp;/&nbsp;AI</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/XGBoost-189BCE?style=flat-square"/>
+      <img src="https://img.shields.io/badge/SHAP-FF6B6B?style=flat-square"/>
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square"/>
+      <img src="https://img.shields.io/badge/FAISS-009688?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Sentence--Transformers-F7931E?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Anthropic_Claude-D97706?style=flat-square"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Backend</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Pydantic_v2-E92063?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Hugging_Face_Spaces-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Language</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python_3.11-3776AB?style=flat-square&logo=python&logoColor=white"/>
+    </td>
+  </tr>
+</table>
+
+---
+
+### Apex — Revenue Intelligence Platform
+
+<div>
+
+[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-D4A853?style=for-the-badge&logo=chartdotjs&logoColor=white)](https://RameshSTA.github.io/apex)
+[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-0F2B5B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RameshSTA/apex)
+
+</div>
+
+A production-grade airline revenue-management intelligence platform solving the four highest-leverage operational problems in commercial aviation: **demand forecasting, cabin-mix LP optimisation, causal price-elasticity identification, and network-scale RM automation via agentic orchestration**. Grounded in Qantas Group's FY2025 operational scale — A$23.8B revenue, 55.9M passengers, 363 aircraft — where a 1% yield improvement is worth approximately A$180M annually.
+
+<br/>
+
+<table align="center">
+  <tr>
+    <td align="center" width="160"><h3>7.3%</h3>LP Revenue Uplift<br/>vs flat-allocation</td>
+    <td align="center" width="160"><h3>&lt;14%</h3>Hybrid Forecast<br/>MAPE (10 routes)</td>
+    <td align="center" width="160"><h3>&lt;1 ms</h3>LP Solve Time<br/>HiGHS backend</td>
+    <td align="center" width="160"><h3>&lt;300 ms</h3>Agent Latency<br/>brief → recommendation</td>
+  </tr>
+</table>
+
+<br/>
+
+**Forecasting Layer** — Hybrid Holt-Winters + Gradient-Boosted residual model on 30 engineered features across 10 Australian domestic routes. Walk-forward cross-validation and bootstrap confidence intervals ensure calibrated uncertainty under event-driven regimes (school holidays, competitor entry, Rex administration natural experiment).
+
+**Optimisation Layer** — scipy HiGHS linear programme maximises cabin-mix revenue across 4 cabins with access-floor constraints. Dual variable recovery produces mathematically defensible bid prices — replacing static quarterly targets with a continuously optimising allocation engine.
+
+**Causal Inference Layer** — Difference-in-Differences (with parallel-trends placebo validation) quantifies the causal yield impact of competitor events (Rex administration, Virgin repricing). 2SLS instrumental variables (IATA jet-fuel index) corrects OLS simultaneity bias in price-elasticity estimation, with Staiger-Stock F-diagnostic and Hausman endogeneity test.
+
+**Agentic Layer** — Tool-calling orchestrator plans and executes forecast → optimise chains from a plain-language route brief, returning a fully auditable recommendation trail in under 300 ms.
+
+<br/>
+
+<table>
+  <tr>
+    <td><strong>Forecasting</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Holt--Winters-0F2B5B?style=flat-square"/>
+      <img src="https://img.shields.io/badge/GradientBoosting-189BCE?style=flat-square"/>
+      <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Optimisation</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/scipy_HiGHS-8CAAE6?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Linear_Programming-D4A853?style=flat-square"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Causal&nbsp;Inference</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/DiD-6B4FBB?style=flat-square"/>
+      <img src="https://img.shields.io/badge/2SLS_IV-6B4FBB?style=flat-square"/>
+      <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Agentic&nbsp;/&nbsp;UI</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Tool--Calling_Agent-D4A853?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Python_3.10+-3776AB?style=flat-square&logo=python&logoColor=white"/>
+    </td>
+  </tr>
+</table>
+
+---
 
 ### FraudSentinel — Proactive Payment Fraud Intelligence System
 
@@ -123,8 +263,6 @@ Most retention programmes treat all at-risk customers equally. This system answe
 
 **Budget Optimisation** — A PuLP/CBC 0-1 Knapsack allocator returns the optimal customer set to target under any spend constraint. At the £200 efficiency frontier, net ROI reaches 44.5×. A 500-draw Monte Carlo simulation stress-tests assumptions and delivers a full P5–P95 confidence band for every budget scenario, removing guesswork from retention investment decisions.
 
-**Pipeline** — Fully automated 11-step scoring pipeline (ingest → clean → features → CLV → churn → optimise → evaluate → segment → cohort → insights → sensitivity). MLflow experiment tracking and GitHub Actions CI across Python 3.9 and 3.11. An 8-segment RFM taxonomy reveals a Gini coefficient of 0.73 — the top 10% of customers drive 62% of total revenue.
-
 <br/>
 
 <table>
@@ -151,12 +289,6 @@ Most retention programmes treat all at-risk customers equally. This system answe
       <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white"/>
     </td>
   </tr>
-  <tr>
-    <td><strong>Language</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-    </td>
-  </tr>
 </table>
 
 ---
@@ -170,7 +302,7 @@ Most retention programmes treat all at-risk customers equally. This system answe
 
 </div>
 
-Member churn is a critical operational risk for Australian Superannuation funds. **ConnectIntelligence** predicts which members are at risk of disengaging — and explains *why* — so that engagement teams can intervene with targeted strategies rather than blanket campaigns. The system is deployed as a production-grade real-time API, returning a churn probability and behavioural persona classification for any member within 200 milliseconds.
+**ConnectIntelligence** predicts which superannuation fund members are at risk of disengaging — and explains *why* — so engagement teams can intervene with targeted strategies. Deployed as a production real-time API returning churn probability and behavioural persona classification for any member within 200 milliseconds.
 
 <br/>
 
@@ -181,14 +313,6 @@ Member churn is a critical operational risk for Australian Superannuation funds.
     <td align="center" width="200"><h3>4</h3>Behavioural Risk Personas<br/>via K-Means Clustering</td>
   </tr>
 </table>
-
-<br/>
-
-**Model** — XGBoost classifier with systematic feature selection, hyperparameter tuning via cross-validation, and class-imbalance handling. Achieves 0.86 weighted accuracy on the held-out test set. SHAP values are computed for every high-risk prediction, providing each engagement team member with a traceable, plain-language explanation of which factors drove the risk score — building trust and enabling targeted action.
-
-**Segmentation** — K-Means clustering identifies four distinct behavioural risk personas from the member population. Each persona maps to a tailored intervention playbook, improving engagement team effectiveness by focusing effort on the right strategy for the right member type rather than applying one-size-fits-all outreach.
-
-**Deployment** — The full system is containerised with Docker and served via FastAPI. End-to-end inference — from raw member input to scored output — completes in under 200 milliseconds, enabling real-time integration with operational dashboards and CRM systems. A live interactive demo is available via the link above.
 
 <br/>
 
@@ -209,12 +333,6 @@ Member churn is a critical operational risk for Australian Superannuation funds.
       <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
     </td>
   </tr>
-  <tr>
-    <td><strong>Language</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-    </td>
-  </tr>
 </table>
 
 ---
@@ -227,7 +345,7 @@ Member churn is a critical operational risk for Australian Superannuation funds.
 
 </div>
 
-Financial due diligence on ASX-listed companies is time-consuming and error-prone when done manually across dense annual reports. **FinGraph** replaces keyword search and manual reading with an **agentic GraphRAG pipeline** — combining a structured knowledge graph of extracted financial entities with LLM-powered reasoning — so analysts can ask complex questions in plain language and receive answers grounded in traceable, source-linked evidence from the original documents.
+**FinGraph** replaces keyword search and manual reading of ASX annual reports with an **agentic GraphRAG pipeline** — combining a Neo4j knowledge graph of extracted financial entities with LLM-powered reasoning — so analysts can ask complex questions in plain language and receive answers grounded in traceable, source-linked evidence from the original filings.
 
 <br/>
 
@@ -238,14 +356,6 @@ Financial due diligence on ASX-listed companies is time-consuming and error-pron
     <td align="center" width="200"><h3>50+</h3>Financial Entities<br/>Auto-Extracted per Report</td>
   </tr>
 </table>
-
-<br/>
-
-**Architecture** — A custom NLP extraction pipeline parses ASX annual reports and maps 50+ financial entities (companies, executives, subsidiaries, financial metrics, risk factors) into a **Neo4j graph database**. At query time, LlamaIndex traverses the graph rather than performing vector-only semantic search, dramatically improving precision on multi-hop financial questions. Groq handles LLM inference for speed.
-
-**Accuracy and Trust** — A citation-style verification layer attaches the source sentence, page, and document to every LLM response. This grounds answers in the original filings and eliminates hallucinations — a critical requirement for financial analysis where accuracy directly affects investment decisions. Analysts can trace every claim back to its exact source with a single click.
-
-**Interface** — A Streamlit application allows analysts to interrogate any ASX-listed company's filings in plain English. The system returns structured, evidence-backed answers alongside a visual knowledge graph of entity relationships.
 
 <br/>
 
@@ -267,11 +377,6 @@ Financial due diligence on ASX-listed companies is time-consuming and error-pron
     <td><strong>Interface</strong></td>
     <td>
       <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Language</strong></td>
-    <td>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
     </td>
   </tr>
@@ -283,7 +388,18 @@ Financial due diligence on ASX-listed companies is time-consuming and error-pron
 
 <table>
   <tr>
-    <td nowrap><strong>Machine Learning & AI</strong></td>
+    <td nowrap><strong>AI / LLM Engineering</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square"/>
+      <img src="https://img.shields.io/badge/FAISS-009688?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Sentence--Transformers-F7931E?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Anthropic_Claude-D97706?style=flat-square"/>
+      <img src="https://img.shields.io/badge/LlamaIndex-6B4FBB?style=flat-square"/>
+      <img src="https://img.shields.io/badge/RAG%20%2F%20Agentic_AI-0F2B5B?style=flat-square"/>
+    </td>
+  </tr>
+  <tr>
+    <td nowrap><strong>Machine Learning</strong></td>
     <td>
       <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
       <img src="https://img.shields.io/badge/XGBoost-189BCE?style=flat-square"/>
@@ -291,27 +407,26 @@ Financial due diligence on ASX-listed companies is time-consuming and error-pron
       <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
       <img src="https://img.shields.io/badge/SHAP-FF6B6B?style=flat-square"/>
       <img src="https://img.shields.io/badge/Prophet-3776AB?style=flat-square"/>
-      <img src="https://img.shields.io/badge/LSTM-EE4C2C?style=flat-square"/>
-      <img src="https://img.shields.io/badge/NLP%20%2F%20GraphRAG-6B4FBB?style=flat-square"/>
     </td>
   </tr>
   <tr>
     <td nowrap><strong>MLOps & Deployment</strong></td>
     <td>
-      <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square"/>
-      <img src="https://img.shields.io/badge/DVC-945DD6?style=flat-square&logo=dvc&logoColor=white"/>
       <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
       <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
       <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Hugging_Face_Spaces-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+      <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square"/>
+      <img src="https://img.shields.io/badge/DVC-945DD6?style=flat-square&logo=dvc&logoColor=white"/>
       <img src="https://img.shields.io/badge/Evidently_AI-6C47FF?style=flat-square"/>
     </td>
   </tr>
   <tr>
     <td nowrap><strong>Data Engineering</strong></td>
     <td>
+      <img src="https://img.shields.io/badge/Azure_Data_Factory-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/>
       <img src="https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white"/>
       <img src="https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Azure_Data_Factory-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/>
       <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
       <img src="https://img.shields.io/badge/SQL%20%2F%20PL--SQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
     </td>
@@ -349,7 +464,7 @@ Financial due diligence on ASX-listed companies is time-consuming and error-pron
 
 ## Professional Experience
 
-**Associate Consultant — ERP Data Developer** &nbsp;&nbsp; PM-Partners · Sydney, NSW · Feb 2026 – Present
+**Associate Consultant: AI and Data Developer** &nbsp;&nbsp; PM-Partners · Sydney, NSW · Feb 2026 – Present
 
 Designing and maintaining automated daily ingestion pipelines in Azure Data Factory for HR and Payroll units, replacing error-prone manual exports with validated end-to-end refreshes. Reduced manual effort by 40%, cut data refresh latency from hours to under 30 minutes (75% reduction), and elevated reporting accuracy by 30% through automated SQL/PL-SQL referential integrity validation across high-volume ERP production datasets.
 
