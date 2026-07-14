@@ -28,7 +28,7 @@ I am an **AI Engineer and Data Scientist** based in Sydney, Australia, who build
 
 My work sits at the intersection of **machine learning engineering, LLM/RAG systems, and agentic AI**. I own the complete ML lifecycle: data ingestion, feature engineering, model training, SHAP explainability, containerised FastAPI deployment, CI/CD automation, and production monitoring. Every system I ship is explainable, reproducible, and built to run in the real world.
 
-Currently working as an **Associate Consultant: AI and Data Developer at PM-Partners** in Sydney, designing automated Azure Data Factory pipelines that power executive reporting at scale. My independent projects span a production-deployed insurance AI platform (fraud detection, RAG, agentic triage) live on Hugging Face Spaces, and an airline revenue-management engine combining hybrid forecasting, linear-programme optimisation, causal inference, and tool-calling agents.
+Currently working as an **Associate Consultant and AI Scientist at PM-Partners** in Sydney, designing automated Azure Data Factory pipelines that power executive reporting at scale. My independent projects span a production-deployed insurance AI platform (fraud detection, RAG, agentic triage) live on Hugging Face Spaces, and an airline revenue-management engine combining hybrid forecasting, linear-programme optimisation, causal inference, and tool-calling agents.
 
 
 
@@ -377,7 +377,7 @@ A custom NLP extraction pipeline maps 50+ financial entities (companies, executi
 
 <br/>
 
-**Associate Consultant: AI and Data Developer** &nbsp;|&nbsp; PM-Partners &nbsp;|&nbsp; Sydney, NSW &nbsp;|&nbsp; Feb 2026 – Present
+**Associate Consultant** &nbsp;|&nbsp; **AI Scientist** &nbsp;|&nbsp; PM-Partners &nbsp;|&nbsp; Sydney, NSW &nbsp;|&nbsp; Feb 2026 – Present
 
 <table width="100%"><tr><td width="3" bgcolor="#1A7A8C"></td><td>
 
