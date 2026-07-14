@@ -83,6 +83,64 @@ Currently working as an **Associate Consultant: AI and Data Developer at PM-Part
 
 <br/>
 
+### AuditMind AI — Agentic AI Audit Intelligence Platform
+
+<div align="center">
+
+[![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge)](https://github.com/RameshSTA/auditmind-ai)
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/RameshSTA/auditmind-ai/main/assets/demo-walkthrough.gif" alt="AuditMind AI demo walkthrough" width="90%"/>
+
+</div>
+
+<br/>
+
+An enterprise-grade agentic AI platform for internal audit and forensic investigation, built on a premise most "AI audit tools" skip: AI can retrieve, analyse, and draft, but a human must confirm every finding before it counts. Evidence is ingested and made searchable two ways, every transaction is scored by a forensic rule engine *and* an ML ensemble, vendor identities are resolved into a knowledge graph, and every AI-drafted finding stops at a mandatory human sign-off gate before it can reach a report.
+
+<br/>
+
+<div align="center">
+
+| Metric | Value | Context |
+|:---|:---:|:---|
+| Test Suite | **241 passing** | Unit + integration, across two independently deployable services |
+| Investigation Runtime | **9-role, 11-node** | LangGraph state machine with an LLM-as-judge groundedness evaluator |
+| Fraud Signal Ensemble | **3 combined signals** | Isolation Forest + HDBSCAN cohort clustering + graph centrality |
+| Data Isolation | **DB-enforced RLS** | Every engagement-scoped table, enforced by Postgres, not application code |
+| Embedding Dimensionality | **1024-dim** | BAAI/bge-m3, stored in pgvector |
+
+</div>
+
+<br/>
+
+**Layer 1 — Hybrid Retrieval & Evidence**
+
+Documents are deduplicated by content hash, parsed, and split into paragraph-aware chunks rather than a fixed-token window. Retrieval runs two independent legs — Postgres full-text search and pgvector semantic similarity on BAAI/bge-m3 embeddings — with every result citing an exact character offset back to its source document, never a paraphrase.
+
+**Layer 2 — Forensic Rule Engine & ML Fraud Ensemble**
+
+A real forensic-accounting rule engine (Benford's Law deviation, duplicate-payment matching, threshold/round-dollar structuring) runs alongside an ML ensemble of Isolation Forest, HDBSCAN cohort clustering, and vendor-tenure graph centrality. A dedicated model-validation endpoint cross-validates the ensemble's own separative power with stratified k-fold cross-validation, bootstrap cluster-stability analysis, and a per-signal weight ablation study.
+
+**Layer 3 — Agentic Investigation Runtime**
+
+A LangGraph state machine — input guardrail, planner, a dispatched subset of four evidence specialists, context assembly, an independent LLM-as-judge evaluator, output guardrail, and a human-in-the-loop interrupt — investigates multi-step requests and drafts evidence-cited findings that a human must confirm before anything is published. A separate conversational Copilot layer routes each message to a direct answer, one of six real backend actions, or a hand-off to the full investigation graph.
+
+**Layer 4 — Security & Governance**
+
+Row-Level Security enforced at the database layer on every engagement-scoped table, a dedicated least-privilege database role, and two-layer authorization re-verified against the database on every request — never trusting a JWT claim alone for access control.
+
+**Stack:** FastAPI · Next.js · LangGraph · LiteLLM · PostgreSQL · pgvector · Neo4j · scikit-learn · HDBSCAN · sentence-transformers · Docker · GitHub Actions
+
+<br/>
+
+---
+
 ### Argus — Insurance Intelligence Platform
 
 <div align="center">
